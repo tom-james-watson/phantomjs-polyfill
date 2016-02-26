@@ -5,7 +5,7 @@
     "main": "bind-polyfill.js",
     "repository": {
         "type": "git",
-        "url": "git@github.com:conversocial/phantomjs-polyfill.git"
+        "url": "git@github.com:tom-james-watson/phantomjs-polyfill.git"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,10 +15,10 @@
         "bind",
         "polyfill"
     ],
-    "author": "Tom Watson <tom.watson@conversocial.com>",
+    "author": "Tom Watson <tom.james.watson@gmail.com>",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/conversocial/phantomjs-polyfill/issues"
+        "url": "https://github.com/tom-james-watson/phantomjs-polyfill/issues"
     },
-    "homepage": "https://github.com/conversocial/phantomjs-polyfill"
+    "homepage": "https://github.com/tom-james-watson/phantomjs-polyfill"
 }
