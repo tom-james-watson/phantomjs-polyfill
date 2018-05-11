@@ -16,3 +16,9 @@ if (typeof Function.prototype.bind != 'function') {
         return bound;
     };
 }
+
+// In PhantomJS, console.log is not instanceof Function
+if (console && typeof console.log == 'function' && typeof console.log.bind != 'function') {
+    // this will have effect on console.log, console.error and all the other methods
+    console.log.constructor.prototype.bind = Function.prototype.bind;
+}
